@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap");
+*,
+*::before,
+*::after,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #0f0f0f;
+  color: #c8c8c8;
+}
+
+.app {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.landing #about {
+  margin: 40px 0;
+  padding: 20px;
+  background: #bdbd2b;
+}
+
+.landing #about h2 {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+  .landing #about h2 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .landing #about h2 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .landing #about h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landing #about h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing #about h2 {
+    font-size: 2rem;
+  }
+}
+
+.landing #about p {
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+  .landing #about p {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .landing #about p {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .landing #about p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landing #about p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing #about p {
+    font-size: 1rem;
+  }
+}
+
+.landing #about h2,
+.landing #about p {
+  background: inherit;
+  color: black;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.landing .art-title {
+  margin: 100px 0 20px 0;
+  color: #bdbd2b;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+  .landing .art-title {
+    font-size: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .landing .art-title {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .landing .art-title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landing .art-title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing .art-title {
+    font-size: 2rem;
+  }
+}
+
+.landing .art-title span {
+  color: #d346d3;
+  font-weight: 900;
+}
+
+.landing .codecool-title {
+  margin: 100px 0 20px 0;
+  color: #bdbd2b;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+  .landing .codecool-title {
+    font-size: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .landing .codecool-title {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .landing .codecool-title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landing .codecool-title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing .codecool-title {
+    font-size: 2rem;
+  }
+}
+
+.landing .codecool-title span {
+  color: #6868d3;
+  font-weight: 900;
+}
+
+.landing .codecool-sub {
+  font-weight: 100;
+  color: #ddcf98;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1500px) {
+  .landing .codecool-sub {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .landing .codecool-sub {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .landing .codecool-sub {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landing .codecool-sub {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .landing .codecool-sub {
+    font-size: 1.2rem;
+  }
+}
+/*# sourceMappingURL=landing.css.map */

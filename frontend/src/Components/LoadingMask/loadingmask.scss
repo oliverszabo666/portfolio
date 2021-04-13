@@ -1,0 +1,57 @@
+.loading-mask {
+  .crop {
+    overflow: hidden;
+
+    .top,
+    .bottom {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: blue;
+      text-align: center;
+
+      @media screen and (min-width: 1800px) {
+        font-size: 5rem;
+      }
+      @media screen and (max-width: 1800px) {
+        font-size: 4rem;
+      }
+      @media screen and (max-width: 1400px) {
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 1000px) {
+        font-size: 2.5rem;
+      }
+      @media screen and (max-width: 800px) {
+        font-size: 2.2rem;
+      }
+    }
+    .top {
+      color: yellow;
+
+      animation: 6s slideRight ease-in-out infinite;
+
+      @keyframes slideRight {
+        from {
+          transform: translateX(-1500px);
+        }
+        to {
+          transform: translateX(1000px);
+        }
+      }
+    }
+    .bottom {
+      color: white;
+
+      animation: 6s slideLeft infinite;
+
+      @keyframes slideLeft {
+        from {
+          transform: translateX(1000px);
+        }
+        to {
+          transform: translateX(-1500px);
+        }
+      }
+    }
+  }
+}

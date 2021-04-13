@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h3 {
+    min-height: 100px;
+    letter-spacing: 1px;
+    padding: 10px;
+
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+    @media screen and (min-width: 1800px) {
+      font-size: 4rem;
+    }
+    @media screen and (max-width: 1800px) {
+      font-size: 1.8rem;
+    }
+    @media screen and (max-width: 1400px) {
+      font-size: 1.6rem;
+    }
+    @media screen and (max-width: 1000px) {
+      font-size: 1.4rem;
+    }
+    @media screen and (max-width: 800px) {
+      font-size: 1.2rem;
+    }
+  }
+  p {
+    text-align: right;
+    margin: 10px 0;
+  }
+}

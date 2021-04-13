@@ -1,0 +1,228 @@
+.title {
+  padding: 10px;
+  background: #bdbd2b;
+  margin: 10px 0;
+}
+
+.title h1 {
+  font-weight: 900;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #bdbd2b;
+  font-family: "Dela Gothic One", cursive;
+}
+
+@media screen and (min-width: 1800px) {
+  .title h1 {
+    font-size: 13rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .title h1 {
+    font-size: 9rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .title h1 {
+    font-size: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title h1 {
+    font-size: 4.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .title h1 {
+    font-size: 2.1rem;
+  }
+}
+
+.title .subtitle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 15px 0;
+  padding: 5px;
+  background: inherit;
+  min-height: 350px;
+}
+
+.title .subtitle-container .a-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: inherit;
+}
+
+.title .subtitle-container h2,
+.title .subtitle-container h3 {
+  background: inherit;
+  color: black;
+}
+
+.title .subtitle-container h2 {
+  margin: 10px 0;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+  .title .subtitle-container h2 {
+    font-size: 9rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .title .subtitle-container h2 {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .title .subtitle-container h2 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title .subtitle-container h2 {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title .subtitle-container h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title .subtitle-container h2 {
+    font-size: 2.4rem;
+  }
+}
+
+.title .subtitle-container h3 {
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1800px) {
+  .title .subtitle-container h3 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .title .subtitle-container h3 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .title .subtitle-container h3 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title .subtitle-container h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title .subtitle-container h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title .subtitle-container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.title .subtitle-container a {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  padding: 1em;
+  margin: 10px auto;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+@media screen and (min-width: 1800px) {
+  .title .subtitle-container a {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .title .subtitle-container a {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .title .subtitle-container a {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title .subtitle-container a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title .subtitle-container a {
+    font-size: 1.2rem;
+  }
+}
+
+.title .subtitle-container a:hover {
+  color: #bdbd2b;
+}
+/*# sourceMappingURL=title.css.map */

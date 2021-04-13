@@ -1,0 +1,103 @@
+.loading-mask .crop {
+  overflow: hidden;
+}
+
+.loading-mask .crop .top,
+.loading-mask .crop .bottom {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: blue;
+  text-align: center;
+}
+
+@media screen and (min-width: 1800px) {
+  .loading-mask .crop .top,
+  .loading-mask .crop .bottom {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .loading-mask .crop .top,
+  .loading-mask .crop .bottom {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .loading-mask .crop .top,
+  .loading-mask .crop .bottom {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .loading-mask .crop .top,
+  .loading-mask .crop .bottom {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .loading-mask .crop .top,
+  .loading-mask .crop .bottom {
+    font-size: 2.2rem;
+  }
+}
+
+.loading-mask .crop .top {
+  color: yellow;
+  -webkit-animation: 6s slideRight ease-in-out infinite;
+          animation: 6s slideRight ease-in-out infinite;
+}
+
+@-webkit-keyframes slideRight {
+  from {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+  }
+  to {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+  }
+  to {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+}
+
+.loading-mask .crop .bottom {
+  color: white;
+  -webkit-animation: 6s slideLeft infinite;
+          animation: 6s slideLeft infinite;
+}
+
+@-webkit-keyframes slideLeft {
+  from {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+  to {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+  to {
+    -webkit-transform: translateX(-1500px);
+            transform: translateX(-1500px);
+  }
+}
+/*# sourceMappingURL=loadingmask.css.map */

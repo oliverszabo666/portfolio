@@ -1,0 +1,70 @@
+.loading-screen {
+  width: 100vw;
+  min-height: 100vh;
+
+  background: rgb(189, 189, 43);
+
+  .crop {
+    // background: blue;
+    background: inherit;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70vw;
+
+    div {
+      width: 100vw;
+      min-height: 100vh;
+      background: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      animation: 6s slide linear;
+
+      @keyframes slide {
+        0% {
+          transform: translateX(6000px);
+        }
+        80% {
+          transform: translateX(-6000px);
+        }
+        100% {
+          transform: translateX(2500px);
+        }
+      }
+
+      span {
+        background: inherit;
+        color: black;
+        margin: 0 600px;
+        font-weight: 900;
+
+        @media screen and (min-width: 1800px) {
+          font-size: 30rem;
+        }
+        @media screen and (max-width: 1800px) {
+          font-size: 25rem;
+        }
+        @media screen and (max-width: 1200px) {
+          font-size: 22rem;
+        }
+        @media screen and (max-width: 1000px) {
+          font-size: 20rem;
+        }
+        @media screen and (max-width: 800px) {
+          font-size: 15rem;
+        }
+        @media screen and (max-width: 600px) {
+          font-size: 10rem;
+        }
+        @media screen and (max-width: 350px) {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}

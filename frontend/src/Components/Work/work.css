@@ -1,0 +1,153 @@
+.work {
+  margin: 100px 0;
+  padding: 30px 10px;
+  min-height: 200px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.work:hover {
+  background: #9e99c4;
+}
+
+.work h2 {
+  background: inherit;
+  font-weight: 900;
+  margin: 20px 0;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1800px) {
+  .work h2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .work h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .work h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .work h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .work h2 {
+    font-size: 2rem;
+  }
+}
+
+.work h3 {
+  background: inherit;
+  font-weight: 500;
+  margin: 10px 0;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media screen and (min-width: 1800px) {
+  .work h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .work h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .work h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .work h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .work h3 {
+    font-size: 1.2rem;
+  }
+}
+
+.work p {
+  background: inherit;
+  font-family: "Roboto Mono", monospace;
+  margin: 25px 0;
+  font-weight: 200;
+  line-height: 1.7;
+}
+
+@media screen and (min-width: 1800px) {
+  .work p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .work p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .work p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .work p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .work p {
+    font-size: 1.1rem;
+  }
+}
+
+.work a {
+  background: white;
+  color: black;
+  padding: 1em;
+  margin: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-weight: 300;
+  letter-spacing: 2px;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+@media screen and (min-width: 1500px) {
+  .work a {
+    font-size: 1.5rem;
+  }
+}
+
+.work a:hover {
+  background: black;
+  color: white;
+}
+/*# sourceMappingURL=work.css.map */
