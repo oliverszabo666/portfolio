@@ -1,7 +1,7 @@
 .title {
   padding: 10px;
   background: #bdbd2b;
-  margin: 10px 0;
+  margin: 25px 0;
 }
 
 .title h1 {
@@ -68,7 +68,7 @@
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin: 15px 0;
-  padding: 5px;
+  padding: 25px;
   background: inherit;
   min-height: 350px;
 }

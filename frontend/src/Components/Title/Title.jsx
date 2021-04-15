@@ -7,7 +7,7 @@ const Title = () => {
       <h1>.szabó/olivér</h1>
 
       <div className="subtitle-container">
-        <h2>front end developer / designer.</h2>
+        <h2>front end developer</h2>
         <h3>Click the buttons below to be forwarded to my portfolio.</h3>
         <div className="a-flex">
           <a

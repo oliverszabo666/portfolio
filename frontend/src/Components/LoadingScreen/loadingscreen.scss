@@ -13,7 +13,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 70vw;
+    width: 75vw;
 
     div {
       width: 100vw;
@@ -23,24 +23,24 @@
       justify-content: center;
       align-items: center;
 
-      animation: 6s slide linear;
+      animation: slide 6s cubic-bezier(0.6, 0.05, 0.25, 1);
 
       @keyframes slide {
         0% {
-          transform: translateX(6000px);
+          transform: translateX(370vw);
         }
         80% {
-          transform: translateX(-6000px);
+          transform: translateX(-300vw);
         }
         100% {
-          transform: translateX(2500px);
+          transform: translateX(250vw);
         }
       }
 
       span {
         background: inherit;
         color: black;
-        margin: 0 600px;
+        margin: 0 20vw;
         font-weight: 900;
 
         @media screen and (min-width: 1800px) {
@@ -59,7 +59,7 @@
           font-size: 15rem;
         }
         @media screen and (max-width: 600px) {
-          font-size: 10rem;
+          font-size: 6.5rem;
         }
         @media screen and (max-width: 350px) {
           font-size: 5rem;

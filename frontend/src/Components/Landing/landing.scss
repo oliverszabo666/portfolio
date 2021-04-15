@@ -28,7 +28,7 @@ a {
 .landing {
   #about {
     margin: 40px 0;
-    padding: 20px;
+    padding: 30px;
     background: rgb(189, 189, 43);
 
     h2 {
@@ -36,13 +36,13 @@ a {
       font-family: "Montserrat", sans-serif;
 
       @media screen and (min-width: 1800px) {
-        font-size: 6rem;
-      }
-      @media screen and (max-width: 1800px) {
         font-size: 5rem;
       }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1800px) {
         font-size: 4rem;
+      }
+      @media screen and (max-width: 1400px) {
+        font-size: 3.5rem;
       }
       @media screen and (max-width: 1000px) {
         font-size: 3rem;
